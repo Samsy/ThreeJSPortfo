@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+html{
+
+    overflow : hidden;
+}
+
+#app_canvas{
+  z-index:2;
+  position :relative;
+
+  width : 100%;
+  height : 100%;
+
+
+
+}
+
+#panel{
+  height : 100%;
+  width : 250px;
+  background-color : rgba(0,0,0,0.5);
+  position : absolute;
+  top : 0;
+  left : 0;
+
+
+  -webkit-transform: matrix(1, 0, 0, 1, -250, 0);
+   -moz-transform: matrix(1, 0, 0, 1, -250, 0);
+   -ms-transform: matrix(1, 0, 0, 1, -250, 0);
+   -o-transform: matrix(1, 0, 0, 1, -250, 0);
+   transform: matrix(1, 0, 0, 1, -250, 0);
+  }
+
+body {
+    overflow:hidden;
+z-index:1;
+	width: 100%;
+	font-family: 'code';
+	height: 100%;
+
+    margin:0;
+
+}
+
+#loadBar{
+  height : 20px;
+  position : absolute;
+  bottom : 0;
+  background-color : rgba(10,10,155,0.8);
+
+  z-index : 4;
+
+  -webkit-transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -ms-transition: opacity 1s ease-in-out;
+   -o-transition: opacity 1s ease-in-out;
+   transition: opacity 1s ease-in-out;
+}
+
+#hamburger{
+  text-align: center;
+  position : absolute;
+  
+  width: 45px;
+  height: 24px;
+  padding: 5px;
+  top : 25px;
+  left : 25px;
+  cursor : pointer;
+  z-index : 5000;
+
+
+}
+
+.line{
+  margin: auto;
+  margin-top : 3px;
+  background-color: white;
+  overflow: hidden;
+  z-index: 1;
+  width: 20px;
+  height: 3px;
+
+  left: 0px;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 0.8s;
+  -webkit-transition-delay: 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 0.8s;
+  -moz-transition-delay: 0.2s;
+  -moz-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -ms-transition-property: -ms-transform;
+  -ms-transition-duration: 0.8s;
+  -ms-transition-delay: 0.2s;
+  -ms-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -o-transition-property: -o-transform;
+  -o-transition-duration: 0.8s;
+  -o-transition-delay: 0.2s;
+  -o-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  transition-property: transform;
+  transition-duration: 0.8s;
+  transition-delay: 0.2s;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  
+}
