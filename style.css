@@ -160,29 +160,29 @@ z-index:1;
   position : absolute;
   width : 40px;
   height : 40px;
-  bottom : 30px;
+  bottom : 90px;
   cursor: pointer;
   z-index : 3000;
 }
 
 #facebook{
 
-  right : 40px;
+  right : 60px;
 
 }
 #twitter{
 
-  right : 100px ;
+  right : 120px ;
 
 }
 
 #linkedin{
 
-  right : 160px;
+  right : 180px;
 }
 
 #plus{
 
-  right : 220px;
+  right : 240px;
 }
 
