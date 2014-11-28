@@ -162,6 +162,7 @@ z-index:1;
   height : 40px;
   bottom : 30px;
   cursor: pointer;
+  z-index : 3000;
 }
 
 #facebook{
