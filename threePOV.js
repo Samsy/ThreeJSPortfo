@@ -1052,8 +1052,8 @@
     TweenLite.to(scaleValue, 0.8, {val : 30 , ease: Power4.easeInOut, onComplete: function(){
         back();
         canUpdate = false;
-        TweenLite.to(panel, 0.6, {x : 0, delay:0.6,ease:Power4.easeOut });
-        TweenLite.to(hamburger, 0.6, {x : 170, delay:0.6,ease:Power4.easeOut });
+        TweenLite.to(panel, 0.6, {x : -250, delay:0.6,ease:Power4.easeOut });
+        TweenLite.to(hamburger, 0.6, {x : 0, delay:0.6,ease:Power4.easeOut });
     }});
 
 
@@ -1265,3 +1265,33 @@
              }
 
     document.addEventListener("keydown", keydown, false);
+
+    var fb = document.getElementById('facebook');
+    var twt = document.getElementById('twitter');
+    var lin = document.getElementById('linkedin');
+     var plus = document.getElementById('plus');
+
+    fb.addEventListener('click', function(){
+
+        window.open("https://www.facebook.com/Pierre.de.miel", '_blank');
+    }, false)
+
+     twt.addEventListener('click', function(){
+
+        window.open("https://twitter.com/Samsyyyy", '_blank');
+    }, false)
+
+      lin.addEventListener('click', function(){
+
+        window.open("https://www.linkedin.com/profile/view?id=182449324&trk=nav_responsive_tab_profile", '_blank');
+    }, false)
+
+
+       plus.addEventListener('click', function(){
+
+        window.open("https://kinectic.herokuapp.com", '_blank');
+    }, false)
+
+    document.addEventListener("keydown", keydown, false);
+
+

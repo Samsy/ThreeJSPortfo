@@ -35,13 +35,17 @@
 
           <div id='panel'></div>
 
+      <img class='icons' id="linkedin" src='images/linkedin.png'></img>
+      <img class='icons' id="facebook" src='images/facebook.png'></img>
+      <img class='icons' id="twitter" src='images/twitter.png'></img>
 
+      <img class='icons' id="plus" src='images/plus.png'></img>
 
-          <script type='text/javascript' src='js/dat.gui.min.js'></script>
-        <script src="three.min.js"></script>
+      <script type='text/javascript' src='js/dat.gui.min.js'></script>
+      <script src="three.min.js"></script>
 
-        <script src="js/loaders/OBJLoader.js"></script>
-        <script src="js/effects/ParallaxBarrierEffect.js"></script>
+      <script src="js/loaders/OBJLoader.js"></script>
+      <script src="js/effects/ParallaxBarrierEffect.js"></script>
       
       <script src="js/shaders/ConvolutionShader.js"></script>
       <script src="js/shaders/CopyShader.js"></script>

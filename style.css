@@ -153,3 +153,35 @@ z-index:1;
   transition-timing-function: cubic-bezier(1, 0, 0, 1);
   
 }
+
+
+.icons{
+
+  position : absolute;
+  width : 40px;
+  height : 40px;
+  bottom : 30px;
+  cursor: pointer;
+}
+
+#facebook{
+
+  right : 40px;
+
+}
+#twitter{
+
+  right : 100px ;
+
+}
+
+#linkedin{
+
+  right : 160px;
+}
+
+#plus{
+
+  right : 220px;
+}
+
