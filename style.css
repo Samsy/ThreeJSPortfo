@@ -47,6 +47,9 @@ table {
     border-spacing: 0;
 }
 
+.icons{
+  display: none;
+}
 
 html{
 
